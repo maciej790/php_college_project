@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background: url('./black-1072366_1920.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+ul > li{
+    margin: 0 0 0 20px;
+}
+
+ul > li > a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.notatka{
+    width: 50%;
+    background: rgb(242, 242, 24);
+    margin: 20px 0 0 0;
+    border-bottom-right-radius: 20px;
+}
+
+.tytul{
+    width: 85%;
+    height: 35px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+}
+
+.tytul > h2{
+    padding: 0 0 0 20px;
+}
+
+.notatka > a{
+    display: block;
+    text-align: right;
+    line-height: 200%;
+    height: 35px;
+    background: white;
+    text-decoration: none;
+    color: black;
+    padding: 0 20px 0 0;
+}
+
+.tresc{
+    clear: both;
+    padding: 20px;
+}
+
+form{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 150px auto 0 auto ;
+}
+
+form > input{
+    width: 30%;
+    margin: 20px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+input[type=submit]{
+    margin: 20px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 20%;
+    cursor: pointer;
+}
+
+textarea{
+    margin: 20px;
+    height: 100px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.error{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
+.witaj{
+    margin: 50px 0 50px 0;
+    color: white;
+}
+
+.konto{
+    text-align: center;
+    margin: 40px 0 20px 0;
+}
+
+.konto > a{
+    color: white;
+}
